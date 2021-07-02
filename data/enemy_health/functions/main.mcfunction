@@ -1,0 +1,1 @@
+execute as @e[nbt={HurtTime:8s}] at @s run tellraw @a[scores={UseBow=0..}] [{"selector":"@a[nbt={HurtTime:8s}]","color":"green"},{"text":" is on ","color":"yellow"},{"score":{"name":"@a[nbt={HurtTime:8s}]","objective":"Health"},"color":"red"},{"text":" HP!","color":"yellow"}]]
